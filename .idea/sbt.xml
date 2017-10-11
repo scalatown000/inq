@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="jdk" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="0.13.11" />
+        <option name="useAutoImport" value="true" />
+        <option name="useOurOwnAutoImport" value="true" />
+      </SbtProjectSettings>
+    </option>
+    <option name="vmParameters" value="-server -Xms512M -Xmx2048M -Xss1M -XX:ReservedCodeCacheSize=64m -XX:NewRatio=8 -XX:+UseG1GC -XX:+UseStringDeduplication -DuseLocal=false -Dsbt.ivy.home=/Users/pillaci/.ivy2" />
+  </component>
+</project>
